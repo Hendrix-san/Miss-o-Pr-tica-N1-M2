@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: salmon;
+}
+header{
+	height:60px;
+}
+.aux{
+	overflow-y: auto;
+	height: calc(100vh - 100px);
+}
+h1 {
+	margin-left: 15px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+main{
+    display: flex;
+	flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    margin: 0;
+	flex-direction: row;
+	overflow-y: auto;
+}
+.espaco{
+	margin-bottom: 15px;
+}
+.labelR{
+	font-size: 1.1em;
+}
+.formulario{
+	height:100vh;
+}
+.titulo-container {
+    display: flex;
+    align-items: flex-start;
+}
+.logo {
+    margin-right: 1px;
+    height: 50px;
+    width: 50px;
+}
+.titulo-principal {
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.titulo-secundario {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+footer{
+	display: flex;
+    color: white;
+    text-align: center;
+    background-color: black;
+	flex-direction: column;
+	height: 25px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
